@@ -1,9 +1,16 @@
+//express
 const express=require('express');
+
+//EJS
+const expressLayout=require(express-ejs-layouts);
 
 const app= express();
 
-//Routes
+app.use(expressLayout);
+app.set('view engine','ejs');
 
+
+//Routes
 app.use('/',require('./routes/index'));
 app.use('/users',require('./routes/users'));
 
