@@ -2,7 +2,7 @@
 const express=require('express');
 
 //EJS
-const expressLayout=require(express-ejs-layouts);
+const expressLayout=require('express-ejs-layouts');
 
 const app= express();
 

@@ -7,6 +7,6 @@ router.get('/login',(req,res)=> res.send("Login"));
 
 //Register Page
 
-router.get('/login',(req,res)=> res.send("Register"));
+router.get('/register',(req,res)=> res.send("Register"));
 
 module.exports=router;
